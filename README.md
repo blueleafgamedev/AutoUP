@@ -10,3 +10,7 @@ OR
 
 **NOTE:** If the emoji module is not currently installed on your system, they won't show up in the program. Install it with the following in your terminal:
 >pip install emoji
+
+Also, the program is currently setup to run on the first day of the month. If it is not the first day of the month the program closes. If you would like to test it out please change the today == 1 section to the day's number and then run the program.
+
+Please let me know if there are any features you would like added or any feedback in general!
