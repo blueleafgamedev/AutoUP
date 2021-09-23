@@ -8,6 +8,5 @@ OR
 
 >echo "python ~/Projects/Python/AutoUP/updates.py" >> ~/.bashrc
 
-**NOTE**
-If the emoji module is not currently installed on your system, they won't show up in the program. Install it with the following in your terminal:
+**NOTE:** If the emoji module is not currently installed on your system, they won't show up in the program. Install it with the following in your terminal:
 >pip install emoji
