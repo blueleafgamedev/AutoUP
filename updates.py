@@ -9,7 +9,7 @@ userOS = distro.id().lower().strip()
 while True:
     
     if today == 1 and userOS == 'fedora':
-        answer = input('Would you like me to perform your monthly maintenance? [Y/n] ').lower().strip()
+        answer = input(emoji.emojize('Would you like me to perform your monthly maintenance? :thinking_face: [Y/n] ')).lower().strip()
             
         if answer == 'y' or answer == 'yes':
             print(emoji.emojize("Please Enter Your Password and I'll get you up to speed! :beaming_face_with_smiling_eyes:\n"))
