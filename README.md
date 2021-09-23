@@ -1,5 +1,4 @@
 # AutoUP
---------
 If the emoji module is not currently installed on your system, they won't show up in the program. Install it with the following in your terminal:
 >pip install emoji
 
