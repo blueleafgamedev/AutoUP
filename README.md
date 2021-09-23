@@ -2,5 +2,5 @@
 --------
 This is a terminal program that I use to run monthly updates and maintenance on Fedora. I also added a section for Ubuntu to see how easy it is to customize the program to suit the needs of your OS. In order to run it when you open your terminal, you must add the python commonad followed by the file path to the end of your ~/.bashrc file. For exapmle, I run it with the following command, in my ~/.bashrc file, on my computer "python /home/travis/Projects/Python/AutoUP/updates.py" or "python ~/Projects/Python/AutoUP/updates.py(minus the quotes). To add this to my ~/.bashrc file, I write the following:
 > echo "python /home/travis/Projects/Python/AutoUP/updates.py" >> ~/.bashrc
-OR
+> OR
 > echo "python ~/Projects/Python/AutoUP/updates.py" >> ~/.bashrc
