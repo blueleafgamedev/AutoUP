@@ -8,7 +8,7 @@ OR
 
 >echo "python ~/Projects/Python/AutoUP/updates.py" >> ~/.bashrc
 
-**NOTE:** If the emoji module is not currently installed on your system, they won't show up in the program. Install it with the following in your terminal:
+**NOTE:** If the emoji module is not currently installed on your system, it will produce an error stating that there is no emoji module found. Install it with the following in your terminal:
 >pip install emoji
 
 Also, the program is currently setup to run on the first day of the month. If it is not the first day of the month the program closes. If you would like to test it out please change the today == 1 section to the day's number and then run the program.
